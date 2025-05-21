@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora :wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: #fafaf9;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 368px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 16px 16px 20px;
+}
+.card__img {
+  width: 336px;
+  height: auto;
+  border-radius: 10px;
+}
+.card__header {
+  width: 100%;
+  height: auto;
+  margin: 16px 16px 8px;
+}
+.card__button {
+  background: #F2EAFD;
+  color: #7C19EE;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 8px 0 10px;
+  border-bottom: 1px solid #E5EAF0;
+  gap: 6px;
+}
+.card__title {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  color: #20293A;
+  font-size: 18px;
+  font-family: "Sora", sans-serif;
+}
+.card__text {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  color: #394150;
+  font-size: 14px;
+  font-family: "Sora", sans-serif;
+}
+.card__footer {
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 10px;
+  position: relative;
+}
+.card__sub-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #394150;
+  font-size: 12px;
+  font-family: "Sora", sans-serif;
+}/*# sourceMappingURL=style.css.map */
